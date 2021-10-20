@@ -3,29 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0287BCFD271FFCF100E73CF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0287BCFC271FFCF100E73CF9 /* AppDelegate.swift */; };
 		0287BCFF271FFCF100E73CF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0287BCFE271FFCF100E73CF9 /* SceneDelegate.swift */; };
-		0287BD01271FFCF100E73CF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0287BD00271FFCF100E73CF9 /* ViewController.swift */; };
 		0287BD04271FFCF100E73CF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0287BD02271FFCF100E73CF9 /* Main.storyboard */; };
 		0287BD07271FFCF100E73CF9 /* iOS_Technical_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0287BD05271FFCF100E73CF9 /* iOS_Technical_test.xcdatamodeld */; };
 		0287BD09271FFCF300E73CF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0287BD08271FFCF300E73CF9 /* Assets.xcassets */; };
 		0287BD0C271FFCF300E73CF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0287BD0A271FFCF300E73CF9 /* LaunchScreen.storyboard */; };
+		0287BD19271FFD2300E73CF9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0287BD18271FFD2300E73CF9 /* Alamofire */; };
+		0287BD1D271FFDDE00E73CF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0287BD1C271FFDDE00E73CF9 /* ViewController.swift */; };
+		0287BD2527200F9B00E73CF9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0287BD2427200F9B00E73CF9 /* User.swift */; };
+		0287BD2627200F9B00E73CF9 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0287BD2327200F9B00E73CF9 /* Device.swift */; };
+		0287BD2727200F9B00E73CF9 /* AFRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0287BD2127200F9B00E73CF9 /* AFRequest.swift */; };
+		0287BD2827200F9B00E73CF9 /* RootClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0287BD2027200F9B00E73CF9 /* RootClass.swift */; };
+		0287BD2927200F9B00E73CF9 /* Addres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0287BD2227200F9B00E73CF9 /* Addres.swift */; };
+		0287BD2C27201E7300E73CF9 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0287BD2B27201E7300E73CF9 /* DeviceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0287BCF9271FFCF100E73CF9 /* iOS Technical test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Technical test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0287BCFC271FFCF100E73CF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0287BCFE271FFCF100E73CF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0287BD00271FFCF100E73CF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0287BD03271FFCF100E73CF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0287BD06271FFCF100E73CF9 /* iOS_Technical_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Technical_test.xcdatamodel; sourceTree = "<group>"; };
 		0287BD08271FFCF300E73CF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0287BD0B271FFCF300E73CF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0287BD0D271FFCF300E73CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0287BD1C271FFDDE00E73CF9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0287BD2027200F9B00E73CF9 /* RootClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootClass.swift; sourceTree = "<group>"; };
+		0287BD2127200F9B00E73CF9 /* AFRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFRequest.swift; sourceTree = "<group>"; };
+		0287BD2227200F9B00E73CF9 /* Addres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addres.swift; sourceTree = "<group>"; };
+		0287BD2327200F9B00E73CF9 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		0287BD2427200F9B00E73CF9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0287BD2B27201E7300E73CF9 /* DeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0287BD19271FFD2300E73CF9 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +74,10 @@
 			children = (
 				0287BCFC271FFCF100E73CF9 /* AppDelegate.swift */,
 				0287BCFE271FFCF100E73CF9 /* SceneDelegate.swift */,
-				0287BD00271FFCF100E73CF9 /* ViewController.swift */,
+				0287BD2B27201E7300E73CF9 /* DeviceViewController.swift */,
+				0287BD1C271FFDDE00E73CF9 /* ViewController.swift */,
+				0287BD2127200F9B00E73CF9 /* AFRequest.swift */,
+				0287BD2A27200FBB00E73CF9 /* Model */,
 				0287BD02271FFCF100E73CF9 /* Main.storyboard */,
 				0287BD08271FFCF300E73CF9 /* Assets.xcassets */,
 				0287BD0A271FFCF300E73CF9 /* LaunchScreen.storyboard */,
@@ -68,6 +85,17 @@
 				0287BD05271FFCF100E73CF9 /* iOS_Technical_test.xcdatamodeld */,
 			);
 			path = "iOS Technical test";
+			sourceTree = "<group>";
+		};
+		0287BD2A27200FBB00E73CF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0287BD2027200F9B00E73CF9 /* RootClass.swift */,
+				0287BD2227200F9B00E73CF9 /* Addres.swift */,
+				0287BD2327200F9B00E73CF9 /* Device.swift */,
+				0287BD2427200F9B00E73CF9 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +114,9 @@
 			dependencies = (
 			);
 			name = "iOS Technical test";
+			packageProductDependencies = (
+				0287BD18271FFD2300E73CF9 /* Alamofire */,
+			);
 			productName = "iOS Technical test";
 			productReference = 0287BCF9271FFCF100E73CF9 /* iOS Technical test.app */;
 			productType = "com.apple.product-type.application";
@@ -106,7 +137,7 @@
 				};
 			};
 			buildConfigurationList = 0287BCF4271FFCF100E73CF9 /* Build configuration list for PBXProject "iOS Technical test" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -114,6 +145,9 @@
 				Base,
 			);
 			mainGroup = 0287BCF0271FFCF100E73CF9;
+			packageReferences = (
+				0287BD17271FFD2300E73CF9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 0287BCFA271FFCF100E73CF9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,9 +175,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0287BD01271FFCF100E73CF9 /* ViewController.swift in Sources */,
+				0287BD2927200F9B00E73CF9 /* Addres.swift in Sources */,
+				0287BD2727200F9B00E73CF9 /* AFRequest.swift in Sources */,
+				0287BD2C27201E7300E73CF9 /* DeviceViewController.swift in Sources */,
+				0287BD1D271FFDDE00E73CF9 /* ViewController.swift in Sources */,
 				0287BCFD271FFCF100E73CF9 /* AppDelegate.swift in Sources */,
 				0287BCFF271FFCF100E73CF9 /* SceneDelegate.swift in Sources */,
+				0287BD2827200F9B00E73CF9 /* RootClass.swift in Sources */,
+				0287BD2627200F9B00E73CF9 /* Device.swift in Sources */,
+				0287BD2527200F9B00E73CF9 /* User.swift in Sources */,
 				0287BD07271FFCF100E73CF9 /* iOS_Technical_test.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -276,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -299,8 +339,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +352,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -327,8 +369,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,7 +382,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -364,6 +408,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0287BD17271FFD2300E73CF9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0287BD18271FFD2300E73CF9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0287BD17271FFD2300E73CF9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		0287BD05271FFCF100E73CF9 /* iOS_Technical_test.xcdatamodeld */ = {
